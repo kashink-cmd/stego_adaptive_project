@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs & local configurations
+.vscode/
+.idea/
+*.swp
+*~
+Library/
+.streamlit/
+
+# Temporary / Scratch files
+current_input_cover.png
+*.log
+
+# Large Raw Simulation Artifacts (>50MB GitHub warning threshold)
+data/robustness_10000.csv
